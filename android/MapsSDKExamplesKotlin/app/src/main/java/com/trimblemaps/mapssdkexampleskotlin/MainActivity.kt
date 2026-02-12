@@ -40,7 +40,8 @@ class MainActivity : Activity() {
         Example(Constants.RESTRICT_INTERACTION, R.drawable.van_nav_splash, SampleRestrictUserInteractionActivity::class
             .java),
         Example(Constants.FRAME_LOCATIONS, R.drawable.general_splash, SampleFramingActivity::class.java),
-        Example(Constants.CLICKABLE_POINTS, R.drawable.van_nav_splash, SampleClickablePointsActivity::class.java)
+        Example(Constants.CLICKABLE_POINTS, R.drawable.van_nav_splash, SampleClickablePointsActivity::class.java),
+        Example(Constants.AVOID_FAVORS, R.drawable.general_splash, SampleAvoidFavorsActivity::class.java)
     )
 
     private lateinit var binding: ActivityMainBinding
