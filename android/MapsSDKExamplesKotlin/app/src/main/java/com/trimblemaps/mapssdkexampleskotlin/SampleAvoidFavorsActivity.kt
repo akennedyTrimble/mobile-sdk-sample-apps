@@ -65,8 +65,6 @@ fun AvoidFavorsScreen() {
     // Load set IDs on first composition
     LaunchedEffect(Unit) {
         val avoidFavors = TrimbleMapsAvoidFavors.builder()
-            .region(EnvironmentCriteria.Region.NORTH_AMERICA)
-            .environment(EnvironmentCriteria.ApiEnvironment.PROD)
             .pageNumber(0)
             .pageSize(25)
             .build()
