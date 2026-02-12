@@ -74,6 +74,9 @@
         <activity
             android:name=".SampleClickablePointsActivity"
             android:exported="false" />
+        <activity 
+            android:name=".SampleAvoidFavorsActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false"

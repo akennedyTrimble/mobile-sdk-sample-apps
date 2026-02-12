@@ -23,5 +23,6 @@ object Constants {
     const val RESTRICT_INTERACTION = "Restrict Interaction"
     const val FRAME_LOCATIONS = "Frame Locations"
     const val CLICKABLE_POINTS = "Clickable Points"
+    const val AVOID_FAVORS  = "Avoid Favors"
 }
 
