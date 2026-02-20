@@ -58,7 +58,7 @@ namespace TrimbleMaps.MapSDK.Sample
             // Load asset-specific set IDs
             try
             {
-                var vehicleId = TrimbleMapsAccountManager.Account?.AssetId()
+                var vehicleId = TrimbleMapsAccountManager.Account?.AssetId();
                 if (!string.IsNullOrEmpty(vehicleId))
                 {
                     var ids = await service.LoadAssetSetIdsAsync(vehicleId);
